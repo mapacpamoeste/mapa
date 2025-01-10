@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 22%, rgba(0,212,255,1) 100%);
+}
+
+.container {
+    width: 80%;
+    max-width: 600px;
+    margin: 40px auto;
+    text-align: center;
+}
+
+.card {
+    background-color: #fff;
+    padding: 20px;
+    border: 3px solid #ddd;
+    box-shadow: 0 0 30px rgba(0,0,0,0.1);
+    border-radius: 20px;
+}
+
+.logotipo {
+    width: 80px;
+    height: 80px;
+    margin: 10px auto;
+}
+
+.logotipocpam {
+    width: 90px;
+    height: 90px;
+    margin: 12px auto;
+}
+
+h1 {
+    margin-bottom: 2px;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+#data {
+    font-size: 18px;
+    color: #505050;
+    margin-bottom: 20px;
+}

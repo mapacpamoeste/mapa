@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mapa de Força do CPAM-OESTE</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+
+        <div class="card">
+            <img class="logotipocpam" src="assets/CPAM OESTE.png" alt="Logotipo 1">
+            <h1>Mapa de Força do Cpam-Oeste</h1>
+            <p id="data"></p>
+            <p>escolha a sua UPM:</p>
+            <a href="https://forms.gle/tcFqpXb1S56NtsdP9">
+              <img class="logotipo" src="assets/CPGD.png" alt="Logotipo 1">
+            </a>
+            <p>CPGD</p>
+            
+            <a href="https://forms.gle/pMrZDUjayBNh3TS69">
+              <img class="logotipo" src="assets/9º_BPM.jpg" alt="Logotipo 2">
+            </a>
+            <p>9º BPM</p>
+            
+            <a href="https://forms.gle/ALr842aBCNurTCus9">
+              <img class="logotipo" src="assets/38º BPM.png" alt="Logotipo 3">
+            </a>
+            <p>38º BPM</p>
+
+    <script>
+        const data = document.getElementById('data');
+        const dataAtual = new Date();
+        const dia = dataAtual.getDate();
+        const mes = dataAtual.getMonth() + 1;
+        const ano = dataAtual.getFullYear();
+
+        const meses = ['janeiro', 'fevereiro', 'março', 'abril', 'maio', 'junho', 
+                    'julho', 'agosto', 'setembro', 'outubro', 'novembro', 'dezembro'];
+
+        data.innerHTML = `${dia} de ${meses[mes-1]} de ${ano}`;
+    </script>
+</body>
+</html>
